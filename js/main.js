@@ -4,13 +4,16 @@ const productsContainer = document.getElementById("productsContainer");
 const mostrarProductos = productos => {
     productsContainer.innerHTML = "";
     productos.forEach(item => {
-        const { id, imagen, nombre, precio } = item;
+        const { id, nombre, imagen, precio } = item;
         let card = document.createElement("div");
         card.className = "card"
         card.innerHTML = `
+        <img src="${imagen}"></img>
+        <div class="text">
         <h2>${nombre}</h2>
         <p>$${precio}</p>
-        <button class="card__input" id="add${id}" class="buy__button">Añadir al carrito</button>
+        </div>
+        <span id="add${id}" class="buy__button"><img src="./media/market.png"></img></span>
         `
         productsContainer.append(card);
     });

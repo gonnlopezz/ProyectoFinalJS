@@ -32,7 +32,86 @@
             .user__button {
                 cursor: pointer;
                 img {
-                    width: 25px;
+                    width: 22px;
+                }
+            }
+        }
+    }
+}
+
+.index__main {
+    width: 90%;
+    margin: 2rem auto;
+    .title__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title {
+            font-size: 2.7rem;
+        }
+        .search__container {
+            display: flex;
+            height: 50px;
+            background-color: #333;
+            .search__input {
+                height: 100%;
+                padding: .8rem;
+                font-size: 1.2rem;
+                width: 16rem;
+            }
+            .search__button {
+                width: 52px;
+                display: flex;
+                cursor: pointer;
+                .search__img {
+                    filter: invert(1);
+                    height: 20px;
+                    margin-left: 16px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    .products__container {
+        margin: 0 -2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .card {
+            position: relative;
+            margin: 3rem 2rem;
+            max-width: 310px;
+            z-index: 10;
+            img {
+                width: 100%;
+            }
+            .text {
+                margin: 12px 0;
+                display: flex;
+                justify-content: space-between;
+                h2 {
+                    font-family: sans-serif;
+                    font-weight: 600;
+                    font-size: 1rem;
+                }
+                p {
+                    font-weight: 600;
+                }
+            }
+            .buy__button {
+                position: absolute;
+                background-color: #333;
+                bottom: 20%;
+                right: -30px;
+                width: 56px;
+                cursor: pointer;
+                height: 50px;
+                z-index: 100;
+                img {
+                    filter: invert(1);
+                    margin-left: 13px;
+                    margin-top: 10px;
+                    width: 30px;
                 }
             }
         }

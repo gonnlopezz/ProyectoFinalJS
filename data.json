@@ -1,5 +1,10 @@
 [
- {"id": 1, "nombre": "chocolate", "precio": 250, "cantidad": 1},
- {"id": 2, "nombre": "bombón", "precio": 250, "cantidad": 1},
- {"id": 3, "nombre": "helado", "precio": 250, "cantidad": 1}
+ {"id": 1, "nombre": "CHOCOLATE EN RAMA", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 2, "nombre": "BOMBÓN ESPACIAL", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 3, "nombre": "HELADO DE MENTA GRANIZADA", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 4, "nombre": "HELADO DE FRUTA", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 5, "nombre": "BOMBÓN ESPACIAL", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 6, "nombre": "HELADO DE MENTA GRANIZADA", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 7, "nombre": "HELADO DE FRUTA", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 8, "nombre": "BOMBÓN ESPACIAL", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1}
 ]

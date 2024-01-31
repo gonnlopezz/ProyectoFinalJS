@@ -36,7 +36,86 @@
   cursor: pointer;
 }
 .header .navbar .action__buttons .user__button img {
-  width: 25px;
+  width: 22px;
+}
+
+.index__main {
+  width: 90%;
+  margin: 2rem auto;
+}
+.index__main .title__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.index__main .title__container .title {
+  font-size: 2.7rem;
+}
+.index__main .title__container .search__container {
+  display: flex;
+  height: 50px;
+  background-color: #333;
+}
+.index__main .title__container .search__container .search__input {
+  height: 100%;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  width: 16rem;
+}
+.index__main .title__container .search__container .search__button {
+  width: 52px;
+  display: flex;
+  cursor: pointer;
+}
+.index__main .title__container .search__container .search__button .search__img {
+  filter: invert(1);
+  height: 20px;
+  margin-left: 16px;
+  margin-top: 15px;
+}
+.index__main .products__container {
+  margin: 0 -2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.index__main .products__container .card {
+  position: relative;
+  margin: 3rem 2rem;
+  max-width: 310px;
+  z-index: 10;
+}
+.index__main .products__container .card img {
+  width: 100%;
+}
+.index__main .products__container .card .text {
+  margin: 12px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.index__main .products__container .card .text h2 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.index__main .products__container .card .text p {
+  font-weight: 600;
+}
+.index__main .products__container .card .buy__button {
+  position: absolute;
+  background-color: #333;
+  bottom: 20%;
+  right: -30px;
+  width: 56px;
+  cursor: pointer;
+  height: 50px;
+  z-index: 100;
+}
+.index__main .products__container .card .buy__button img {
+  filter: invert(1);
+  margin-left: 13px;
+  margin-top: 10px;
+  width: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
