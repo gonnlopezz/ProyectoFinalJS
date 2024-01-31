@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #ddd;
+  height: 8vh;
+}
+.header .navbar {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .navbar .logo__container {
+  font-family: "Honk", system-ui;
+  font-size: 2rem;
+}
+.header .navbar .action__buttons {
+  width: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header .navbar .action__buttons .cart__button {
+  cursor: pointer;
+}
+.header .navbar .action__buttons .cart__button img {
+  width: 25px;
+}
+.header .navbar .action__buttons .user__button {
+  cursor: pointer;
+}
+.header .navbar .action__buttons .user__button img {
+  width: 25px;
+}
+
+/*# sourceMappingURL=styles.css.map */

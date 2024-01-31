@@ -1,0 +1,5 @@
+[
+ {"id": 1, "nombre": "chocolate", "precio": 250, "cantidad": 1},
+ {"id": 2, "nombre": "bombón", "precio": 250, "cantidad": 1},
+ {"id": 3, "nombre": "helado", "precio": 250, "cantidad": 1}
+]
