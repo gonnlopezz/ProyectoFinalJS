@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .header {
     background-color: #ddd;
     height: 8vh;
@@ -43,6 +42,7 @@
     width: 90%;
     margin: 2rem auto;
     .title__container {
+        margin-bottom: 2rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -73,14 +73,13 @@
         }
     }
     .products__container {
-        margin: 0 -2rem;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 300px);
+        justify-content: center;
+        gap: 4rem 10rem;
         .card {
             position: relative;
-            margin: 3rem 2rem;
-            max-width: 310px;
             z-index: 10;
             img {
                 width: 100%;

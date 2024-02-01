@@ -1,10 +1,10 @@
 [
- {"id": 1, "nombre": "CHOCOLATE EN RAMA", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
- {"id": 2, "nombre": "BOMBÓN ESPACIAL", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
- {"id": 3, "nombre": "HELADO DE MENTA GRANIZADA", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
- {"id": 4, "nombre": "HELADO DE FRUTA", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
- {"id": 5, "nombre": "BOMBÓN ESPACIAL", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
- {"id": 6, "nombre": "HELADO DE MENTA GRANIZADA", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
- {"id": 7, "nombre": "HELADO DE FRUTA", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
- {"id": 8, "nombre": "BOMBÓN ESPACIAL", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1}
+ {"id": 1, "nombre": "Chocolate en Rama", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 2, "nombre": "Bombón Espacial", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 3, "nombre": "Helado de Menta Granizada", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 4, "nombre": "Helado de Fruta", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 5, "nombre": "Chupetin Galáctico", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 6, "nombre": "Helado de Menta Granizada", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 7, "nombre": "Helado de Fruta", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1},
+ {"id": 8, "nombre": "Chocolate Osito", "precio": 250, "imagen": "./media/chocolate-rama.jpg", "cantidad": 1}
 ]

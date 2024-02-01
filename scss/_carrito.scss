@@ -1,0 +1,47 @@
+.modal__carrito {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    background-color: #ccc;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    width: 22%;
+    height: 100vh;
+    padding: 1rem 2rem;
+    .carrito__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 2rem;
+        margin-bottom: 1rem;
+        .carrito__title {
+            font-size: 1rem;
+            font-family: sans-serif;
+            font-weight: 400;
+        }
+        .btn__close {
+            font-size: 1rem;
+            font-weight: 400;
+            font-family: sans-serif;
+            cursor: pointer;
+        }
+    }
+    .carrito__container {
+        height: 100%;
+        .shop__card {
+            border-top: 1px solid #aaa;
+            height: 30%;
+            max-height: 10rem;
+            display: flex;
+            padding: 2rem 0;
+            .card__img {
+                width: 30%;
+            }
+            p {
+                font-size: .9rem;
+            }
+        }
+    }
+}

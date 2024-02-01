@@ -1,22 +1,27 @@
-const productsContainer = document.getElementById("productsContainer");
 
 
+
+// Función que muestra los productos disponibles en el DOM
 const mostrarProductos = productos => {
-    productsContainer.innerHTML = "";
+    productosContainer.innerHTML = "";
     productos.forEach(item => {
+        // Desestructuración de las propiedades del item
         const { id, nombre, imagen, precio } = item;
         let card = document.createElement("div");
         card.className = "card"
         card.innerHTML = `
         <img src="${imagen}"></img>
         <div class="text">
-        <h2>${nombre}</h2>
+        <h2>${nombre.toUpperCase()}</h2>
         <p>$${precio}</p>
         </div>
         <span id="add${id}" class="buy__button"><img src="./media/market.png"></img></span>
         `
-        productsContainer.append(card);
+        productosContainer.append(card);
+        const btnAgregar = document.getElementById(`add${id}`);
+        btnAgregar.addEventListener("click", () => agregarProducto(id));
     });
+    
 }
 
 
@@ -24,4 +29,11 @@ fetch(" ./data.json")
 .then((response) => response.json())
 .then((data) => {
     mostrarProductos(data);
+    sessionStorage.setItem("productos", JSON.stringify(data));
 });     
+
+const btnCarrito = document.getElementById("cartButton");
+btnCarrito.addEventListener("click", () => {
+    modalCarrito.style.display = "flex";
+    pintarCarrito();
+});
