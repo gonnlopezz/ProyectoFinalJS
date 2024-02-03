@@ -3,6 +3,7 @@
 
 // Función que muestra los productos disponibles en el DOM
 const mostrarProductos = productos => {
+    sessionStorage.setItem("productos", JSON.stringify(productos));
     productosContainer.innerHTML = "";
     productos.forEach(item => {
         // Desestructuración de las propiedades del item
@@ -29,7 +30,6 @@ fetch(" ./data.json")
 .then((response) => response.json())
 .then((data) => {
     mostrarProductos(data);
-    sessionStorage.setItem("productos", JSON.stringify(data));
 });     
 
 const btnCarrito = document.getElementById("cartButton");
