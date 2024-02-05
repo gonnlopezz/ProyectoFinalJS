@@ -5,39 +5,7 @@
     font-family: sans-serif;
 }
 
-.header {
-    background-color: #ddd;
-    height: 8vh;
-    .navbar {
-        height: 100%;
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        .logo__container {
-            font-family: 'Honk', system-ui;
-            font-size: 2rem;
-        }
-        .action__buttons {
-            width: 5rem;
-            display: flex;
-            justify-content: space-between;
-            .cart__button {
-                cursor: pointer;
-                img {
-                    width: 25px;
-                }
-            }
-            .user__button {
-                cursor: pointer;
-                img {
-                    width: 22px;
-                }
-            }
-        }
-    }
-}
+
 
 .index__main {
     width: 90%;
@@ -83,6 +51,7 @@
             position: relative;
             z-index: 10;
             img {
+                border-radius: 10px;
                 width: 100%;
             }
             .text {

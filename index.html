@@ -14,9 +14,14 @@
             <!-- Botones de acción -->
             <div class="action__buttons">
                 <!-- Carrito de compras -->
-                <span id="cartButton" class="cart__button"><img src="./media/market.png" alt=""></span>
+                <div id="cartButton" class="cart__button">
+                    <span id="cantidadCarrito" class="cantidad__carrito"></span>
+                    <img src="./media/market.png" alt="">
+                </div>
                 <!-- Pestaña de usuario -->
                 <a id="userButton" class="user__button"><img src="./media/user.png" alt=""></a>
+                <div class="modalUser" id="modalUser">
+                </div>
             </div>
         </nav>
     </header>
@@ -25,20 +30,33 @@
         <div class="title__container">
             <h1 class="title">Productos</h1>
             <div class="search__container">
-                <input class="search__input" type="text">
-                <span class="search__button"><img class="search__img" src="./media/search.png" alt=""></span>
+                <input id="searchInput" class="search__input" type="text">
+                <span id="btnSearch" class="search__button"><img class="search__img" src="./media/search.png" alt=""></span>
             </div>
         </div>
-        <div class="products__container" id="productosContainer"></div>
+        <div class="products__container" id="productosContainer">
+            <div id="chocolatesContainer">
+                <h2>Chocolates</h2>
+            </div>
+            <div id="heladosContainer">
+                <h2>Helados</h2>
+            </div>
+            <div id="chupetinesContainer">
+                <h2>Chupetines</h2>
+            </div>
+        </div>
         <div class="modal__carrito" id="modalCarrito">
             <div class="carrito__header">
                 <h2 class="carrito__title">MI COMPRA</h2>
                 <span id="btnClose" class="btn__close">X</span>
             </div>
-            <div id="carritoContainer" class="carrito__container"></div>
+            <div id="carritoContainer" class="carrito__container">  
+            </div>
         </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/carrito.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/usuarios.js"></script>
 </body>
 </html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="usuarios__container">
+        <form class="user__login" id="userLogin">
+            <div>
+                <label for="user">Usuario</label>
+                <input type="text" id="user">
+            </div>
+            <div>
+                <label for="pass">Contraseña</label>
+                <input type="password" name="" id="pass">
+            </div>
+            <p>¿No tienes una cuenta? <b id="registrarse">Registrate</b></p>
+            <button id="btnLogin" class="btn__login">Entrar</button>
+        </form>
+        <form id="userRegister" class="user__register">
+            <div>
+                <label for="newUser">Usuario</label>
+                <input type="text" id="newUser">
+            </div>
+            <div>
+                <label for="newPass">Contraseña</label>
+                <input type="password" name="" id="newPass">
+            </div>
+            <button id="btnRegister">Registrarse</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/usuarios.js"></script>
+</body>
+</html>
